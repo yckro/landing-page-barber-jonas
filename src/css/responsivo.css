@@ -1,0 +1,33 @@
+/* hero */
+@media(max-width:425px){
+    .hero{
+        height: 60vh;
+    }
+    
+    .hero h2{
+        font-size: 2.5rem;
+    }
+}
+
+/* produtos */
+@media(max-width: 1280px) { 
+    .produtos .container-produtos {
+        padding: 0 var(--mobile-padding);
+    }
+}
+
+/* serviços */
+
+@media(max-width:425px){
+    .servicos .item{
+        text-align: center;
+    }
+
+    .servicos{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+}
+
+
