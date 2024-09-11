@@ -1,4 +1,5 @@
-/* Produto Section */
+
+/* Services Section */
 .services {
     flex-direction: column;
     min-height: 60vh;
@@ -92,15 +93,23 @@
 }
 
 .services .services-info .service:nth-child(2) .service-card .service-front {
-    background-image: url(./img/img3.jpg);
+    background-image: url(../../images/02.png);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    position: relative;
+    color: var(--white-color);
 }
 
-.services .services-info .service:nth-child(1) .service-card .service-front {
-    background-image: url(./img/img2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.services .services-info .service:nth-child(2) .service-card .service-front::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.274);
+    z-index: -1;
+}
+
+.services .services-info .service:nth-child(2) .service-card .service-front i {
+    color: var(--white-color);
 }

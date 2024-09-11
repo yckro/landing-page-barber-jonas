@@ -1,0 +1,67 @@
+/* About Section */
+.about {
+    width: 100%;
+    min-height: 50vh;
+    padding: 10rem 5rem;
+    flex-direction: row;
+}
+
+.about .about-info {
+    text-align: center;
+    text-align: left;
+}
+
+.about .about-info .about-info-heading {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    color: black;
+}
+
+.about .about-info .about-info-desc {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-top: 10px;
+}
+
+.about .about-info .about-info-button {
+    padding: 1.6rem 2.6rem;
+    display: inline-block;
+    background-color: var(--text-gray);
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about .about-info .about-info-button:hover {
+    background-color: black;
+}
+
+.about .about-img .about-img-wrapper {
+    margin-top: 50px;
+    height: auto;
+    max-width: 400px;
+    position: relative;
+    display: inline-block;
+}
+
+.about .about-img .about-img-wrapper img {
+    height: 100%;
+    width: 100%;
+}
+
+.about .about-img .about-img-wrapper::after {
+    position: absolute;
+    content: '';
+    right: -5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70%;
+    height: 120%;
+    background-color: rgba(24, 24, 24, 0.158);
+    z-index: -1;
+} 

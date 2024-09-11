@@ -1,18 +1,6 @@
-:root{
-    --max-width-size:1920px;
-}
 :root {
-    --mobile-padding: 30px;
-}
-
-:root{
-    --cor-2:#221c3d;
-    --cor-3:#8162ff;
-    --cor-4: rgb(139, 186, 31);
-    --cor-5:#000
-}
-
-:root{
-    --fonte-titulo:'Raleway', sans-serif;
-    --fonte-titulo-2:'Roboto', sans-serif;
+    --main-color: #f0c21b;
+    --secundary-color: #1a4657;
+    --white-color: #fff;
+    --text-gray: #2d2d2d;
 }

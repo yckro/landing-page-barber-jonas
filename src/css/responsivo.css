@@ -1,33 +1,90 @@
-/* hero */
-@media(max-width:425px){
-    .hero{
-        height: 60vh;
+
+/* Responsive - Desktop / Tablet */
+@media only screen and (min-width: 768px) {
+    .nav-bar .nav-list .hamburger {
+        display: none;
     }
-    
-    .hero h2{
-        font-size: 2.5rem;
+
+    .nav-bar {
+        width: 80%;
+    }
+
+    .nav-bar .nav-list ul {
+        transform: translateX(0);
+        position: initial;
+        padding: 0;
+        z-index: initial;
+        background-color: transparent;
+    }
+
+    .nav-bar .nav-list ul li {
+        display: inline-block;
+    }
+
+    .home {
+        height: 100vh;
+        flex-direction: row;
+        padding-left: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home .home-info {
+        max-width: 30%;
+        text-align: left;
+    }
+
+    .home .home-info .home-info-subheading {
+        font-size: 1.3rem;
+        letter-spacing: .5rem;
+    }
+
+    .home .home-img {
+        min-width: 400px;
+        max-width: 1000px;
+    }
+
+    .about {
+        width: 80%;
+        margin: 0 auto;
+        flex-direction: row;
+    }
+
+    .about .about-info {
+        width: 50%;
+        text-align: left;
+        padding-right: 17rem;
+    }
+
+    .services .services-header .services-header-desc {
+        max-width: 500px;
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+
+    .services .services-info {
+        flex-direction: row;
+        width: 80%;
+    }
+
+    .services .services-info .service {
+        margin: 0;
     }
 }
 
-/* produtos */
-@media(max-width: 1280px) { 
-    .produtos .container-produtos {
-        padding: 0 var(--mobile-padding);
+/* Responsive - Desktop */
+@media only screen and (min-width: 1200px) {
+    .home .home-info .home-info-heading {
+        font-size: 6rem;
+    }
+
+    .home .home-info .home-info-subheading {
+        letter-spacing: .8rem;
     }
 }
 
-/* serviços */
-
-@media(max-width:425px){
-    .servicos .item{
-        text-align: center;
+@media only screen and (max-width: 768px){
+    .about .about-img .about-img-wrapper img {
+        display: none;
     }
-
-    .servicos{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, 1fr);
-    }
-
 }
-
-
