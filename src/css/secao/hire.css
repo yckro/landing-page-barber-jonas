@@ -28,3 +28,8 @@
 .hire .hire-button:hover {
     background-color: black;
 } 
+
+.hire-price{
+    color: var(--main-color);
+}
+
