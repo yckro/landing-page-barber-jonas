@@ -1,0 +1,20 @@
+.certificate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-icon{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.card-icon img{
+    width: 40%;
+}
+
+.text-icon samp{
+color:#FFD700 ;
+}
+
