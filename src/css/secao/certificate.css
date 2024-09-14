@@ -6,12 +6,15 @@
 
 .card-icon{
     text-align: center;
-    font-size: 2rem;
     text-transform: uppercase;
 }
 
 .card-icon img{
     width: 40%;
+}
+
+.text-icon{
+font-size: 1.6rem ;
 }
 
 .text-icon samp{
