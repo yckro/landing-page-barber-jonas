@@ -33,3 +33,13 @@
     color: var(--main-color);
 }
 
+.icon-shop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-shop img{
+width: 60%;
+margin-top: 2rem
+}
