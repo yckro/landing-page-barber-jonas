@@ -63,8 +63,8 @@
     }
 
     .services .services-info {
-        flex-direction: row;
-        width: 80%;
+        flex-direction: column;
+        width: 50%;
     }
 
     .services .services-info .service {
@@ -81,10 +81,20 @@
     .home .home-info .home-info-subheading {
         letter-spacing: .8rem;
     }
+
 }
 
 @media only screen and (max-width: 768px){
     .about .about-img .about-img-wrapper img {
         display: none;
+    }
+
+    .services .services-info {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
     }
 }
