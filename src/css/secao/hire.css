@@ -8,7 +8,7 @@
 
 .hire .hire-heading {
     color: black;
-    font-size: 2.2rem;
+    
     text-align: center;
 }
 
@@ -16,7 +16,6 @@
     padding: 2rem 3rem;
     display: inline-block;
     background-color: var(--text-gray);
-    font-size: 1.6rem;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: .2rem;
@@ -31,7 +30,7 @@
 
 .hire-price{
     color: var(--main-color);
-    font-size: 3rem;
+    font-size: 2.3rem;
 }
 
 .icon-shop{
