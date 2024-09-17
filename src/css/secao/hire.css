@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.212);
-    padding: 3rem 2rem;
+    padding: 3rem 5rem;
 }
 
 .hire .hire-heading {
@@ -42,5 +42,5 @@
 
 .icon-shop img{
 width: 60%;
-margin-top: 2rem
+margin-top: 2rem;
 }
