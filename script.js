@@ -24,3 +24,13 @@ mainAccordion.addEventListener('click', () => {
     });
 });
 
+
+const faqHeaders = document.querySelectorAll('.accordion-header');
+faqHeaders.forEach(header => {
+    header.addEventListener('click', () => {
+        const arrow = header.querySelector('.fa-chevron-down');
+        arrow.classList.toggle('rotate');
+    });
+});
+
+

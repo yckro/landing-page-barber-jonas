@@ -71,7 +71,7 @@ width: 100%;
     align-items: center;
 }
 
-.accordion-header h3{
+.accordion-header h2{
     font-size: 3rem;
     text-transform: uppercase;
 }
@@ -98,4 +98,9 @@ width: 100%;
 
 .accordion-child .accordion-body {
     padding-left: 20px;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: transform 0.3s;
 }

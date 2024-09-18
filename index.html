@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site do Jonas</title>
 
+    <link rel="preload" href="./src/css/style.css" as="style">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/variaveis.css">
@@ -15,6 +16,8 @@
     <link rel="stylesheet" href="src/css/secao/hire.css">
     <link rel="stylesheet" href="src/css/secao/about.css">
     <link rel="stylesheet" href="src/css/secao/certificate.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" as="style">
+
 
 
     <link rel="icon" type="image/png" sizes="16x16" href="/src/images/favicon-16x16.png">
@@ -28,15 +31,13 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;1,400&family=Roboto:wght@300;400;700&display=swap"
-        rel="stylesheet">
+    
 
 </head>
 
 <body>
     <!-- nav-bar -->
-    <section id="nav-bar" class="container">
+    <nav id="nav-bar" class="container">
         <header class="nav-bar">
             <div class="brand"><a href="#">
                     <h1><i class="fa-solid fa-scissors"></i>
@@ -53,7 +54,7 @@
                 </ul>
             </div>
         </header>
-    </section>
+    </nav>
     <!-- End nav-bar -->
 
     <!-- Home Section -->
@@ -84,7 +85,7 @@
         </div>
         <div class="about-img">
             <div class="about-img-wrapper">
-                <img src="src/images/06.png" alt="Padrin">
+                <img src="src/images/06.png" alt="Imagem de Jonas, barbeiro e criador do curso">
             </div>
         </div>
     </section>
@@ -190,28 +191,29 @@
             <img src="src/images/metodos-200-1.png-1.webp" alt="metodos de compra">
         </div>
 
-        <div class="footer-contact">
+        <address class="footer-contact">
             <h1 class="footer-contact-heading">Contato</h1>
             <p class="footer-contact-info">Jonaselevipietro01@gmail.com</p>
             <p class="footer-contact-info">Telefone: (17) 99658-6500</p>
-        </div>
+        </address>
+
         <div class="footer-social-follow">
             <h1 class="footer-social-follow-heading">Redes Sociais</h1>
             <div class="footer-social-icon">
 
-                <a href="https://Jonaselevipietro01@gmail.com" target="_blank"><i class="fab fa-g"></i></a>
-                <a href="https://www.tiktok.com/@baabbercrs?_t=8pgwEadPkAv&_r=1" target="_blank"><i
+                <a href="https://Jonaselevipietro01@gmail.com" target="_blank" aria-label="gmail" rel="noopener noreferrer"><i class="fab fa-g"></i></a>
+                <a href="https://www.tiktok.com/@baabbercrs?_t=8pgwEadPkAv&_r=1" target="_blank"aria-label="TikTok" rel="noopener noreferrer"><i
                         class="fab fa-tiktok"></i></a>
-                <a href="https://wa.me/5517996586500" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                <a href="https://www.facebook.com/joaovictor.alves.5661" target="_blank"><i
+                <a href="https://wa.me/5517996586500" target="_blank" aria-label="Whatsapp" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/joaovictor.alves.5661" target="_blank" aria-label="Facebook" rel="noopener noreferrer"><i
                         class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/baabbercrs?utm_source=qr&igsh=dmdreWxoaXJsaXZy" target="_blank"><i
+                <a href="https://www.instagram.com/baabbercrs?utm_source=qr&igsh=dmdreWxoaXJsaXZy" target="_blank" aria-label="Instagram" rel="noopener noreferrer"><i
                         class="fab fa-instagram"></i></a>
             </div>
         </div>
         <div class="accordion accordion-main">
-            <div class="accordion-header">
-                <h3>Faq</h3>
+            <div class="accordion-header" aria-expanded="false">
+                <h2>Faq</h2>
                 <p>TIRE SUAS DÚVIDAS:
                     <br>
                     <i class="fa-solid fa-chevron-down arrow"></i>
@@ -220,9 +222,8 @@
             </div>
             <div class="accordion-body">
                 <div class="accordion accordion-child">
-                    <div class="accordion-header">
-                        <h4>
-                            O curso tem Certificado? </h4>
+                    <div class="accordion-header" aria-expanded="false">
+                        <h3> O curso tem Certificado? </h3>
                     </div>
                     <div class="accordion-body">
                         <p>Tem sim. Após concluir mais de 50% do curso, você poderá emitir o certificado em seu nome.
@@ -231,9 +232,8 @@
                 </div>
 
                 <div class="accordion accordion-child">
-                    <div class="accordion-header">
-                        <h4>
-                            Posso Assistir sempre que quiser? </h4>
+                    <div class="accordion-header" aria-expanded="false">
+                        <h3> Posso Assistir sempre que quiser? </h3>
                     </div>
                     <div class="accordion-body">
                         <p>Sim. O curso ficará disponível de forma permanente. E sempre que houver atualização, será
@@ -242,8 +242,8 @@
                 </div>
 
                 <div class="accordion accordion-child">
-                    <div class="accordion-header">
-                        <h4>Preciso ter os materiais antes de iniciar?</h4>
+                    <div class="accordion-header" aria-expanded="false">
+                        <h3>Preciso ter os materiais antes de iniciar?</h3>
                     </div>
                     <div class="accordion-body">
                         <p>Não, pois dentro do curso vamos começar com as aulas teóricas, para posteriormente partir
