@@ -106,3 +106,41 @@
 .services .services-info .service:nth-child(2) .service-card .service-front i {
     color: var(--white-color);
 }
+
+.testimonials {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 20px;
+    font-size: 4rem;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.video-container {
+    max-width: 45%;
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-container iframe {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .video-container {
+        max-width: 100%;
+    }
+}

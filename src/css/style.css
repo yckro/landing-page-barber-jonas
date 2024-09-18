@@ -213,9 +213,16 @@ html {
 /* certificate */
 
 .certificate{
+    text-align: center;
+    font-size: 2rem;
+    padding: 3rem;
+}
+
+.section-certificate{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 5rem;
 }
 
 .card-icon{
